@@ -1,0 +1,78 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Lato:wght@400;700;900&display=swap");
+
+$white: white;
+$black: #071013;
+$pink: #d8a5a2;
+$mauve: #7D4F50;
+
+
+/*.navbar {
+    margin-bottom: 0;
+    background: $brown;
+}*/
+body {
+  background: $white;
+  color: $black;
+  font-family: "Lato", sans-serif;
+}
+
+h1.display-3 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+  color: $mauve
+}
+p {
+  font-size: 16px;
+  color: $black;
+}
+a:visited {
+  color: $mauve;
+}
+.jumbotron {
+  background: $mauve;
+  color: $pink;
+  text-align: left;
+  p {
+    color: $white;
+    font-size: 26px;
+  }
+}
+
+.btn-primary {
+  color: $white!important;
+  border-color: $white;
+  background-color: $mauve;
+  margin-bottom: 5px;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active {
+  background: $pink!important;
+  border-color: $pink;
+  color: $white
+}
+
+img,
+video,
+audio {
+  margin-top: 20px;
+  max-width: 80%;
+}
+caption {
+  float: left;
+  clear: both;
+}
+
+/*.btn-outline-light:hover,
+.btn-outline-light:active,
+.btn-outline-light:focus,
+.btn-outline-light.active {
+  background: $brown;
+  color: #ffffff;
+  border-color: $white;
+}*/
