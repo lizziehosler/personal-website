@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">-->
 
     <style>
       .bd-placeholder-img {
@@ -30,7 +30,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <!-- <link href="jumbotron.css" rel="stylesheet">-->
   </head>
   <body>
 <!--    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -72,7 +72,7 @@
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-3">Elizabeth<br>Hosler</h1>
-      <p>Hi there! I'm studying full-stack software development and seeking an entry-level software engineering role. Welcome to my site--kick off your shoes and make yourself at home.</p>
+      <p>&#128105;&#127995;&#8205;&#128187; Hi there! I'm studying full-stack software development and seeking an entry-level software engineering role. Welcome to my site&#8212;make yourself at home.</p>
       <!--<button type="button" class="btn btn-outline-light">Continue -></button>-->
     </div>
   </div>
@@ -83,17 +83,21 @@
       <div class="col-md-4">
         <h2>Resume</h2>
         <p>My professional background is in international exchange, so in addition to French and Spanish, I've recently added some programming languages to my toolbelt.</p>
-        <p><a class="btn btn-primary" href="#" role="button">View resume &raquo;</a></p>
+        <p><a class="btn btn-primary" href="/docs/Elizabeth_Hosler_resume.pdf" target="_blank" role="button">View resume &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2>Projects</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        <p>I'm most experienced with Ruby, but have also worked on some frontend Angular projects.</p>
+        <p><a class="btn btn-primary" href="#" role="button">View projects &raquo;</a></p>
       </div>
-      <div class="col-md-4">
-        <h2>About Me</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-md-4" style="font-size: 20px;">
+        <h2>Let's Connect</h2>
+        <div class="icons">
+        <i class="fab fa-github fa-2x"></i> 
+        <i class="fab fa-linkedin-in fa-2x"></i>
+        <i class="fas fa-envelope fa-2x"></i>
+        </div>
+        <p>lizzie.hosler@gmail.com<br>573-837-6667</p>
       </div>
     </div>
 
@@ -104,8 +108,8 @@
 </main>
 
 <footer class="container">
-  <p>&copy; Elizabeth Hosler 2020</p>
+  <p>&copy; Elizabeth Hosler <span id="year"><%= Date.today.year %></span></p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <!--<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>-->
 </html>
