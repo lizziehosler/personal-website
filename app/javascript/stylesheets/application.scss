@@ -8,9 +8,10 @@
 
 
 $white: white;
-$black: #393E41;
-$pink: #e5c1b8;
-$mauve: #AE847E;
+$black: #323031;
+$pink: #FFD9DA;
+$orange: #E28413;
+/*$mauve: #B23A48;*/
 
 
 /*.navbar {
@@ -21,6 +22,8 @@ body {
   background: $white;
   color: $black;
   font-family: "Lato", sans-serif;
+
+ 
 }
 
 h1.display-3 {
@@ -29,17 +32,17 @@ h1.display-3 {
 
 h2 {
   font-weight: 700;
-  color: $mauve
+  color: $orange
 }
 p {
   font-size: 16px;
   color: $black;
 }
 a:visited {
-  color: $mauve;
+  color: $orange;
 }
 .jumbotron {
-  background: $mauve;
+  background: $orange;
   color: $pink;
   text-align: left;
   p {
@@ -52,14 +55,14 @@ a:visited {
 .btn-primary:focus {
   color: $white!important;
   border-color: $white;
-  background-color: $mauve;
+  background-color: $orange;
   margin-bottom: 5px;
 }
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary.active {
-  background: $pink!important;
-  border-color: $pink;
+  background: $black!important;
+  border-color: $white;
   color: $white
 }
 
@@ -74,12 +77,50 @@ caption {
   clear: both;
 }
 
-.icons { 
-  display: flex; 
+#icons a { 
   color: $black;
-  text-align: justify;
+  align-content: f;
   justify-content: space-between; 
-  margin-right: 130px;
+  margin: 0 20px 0 0;
   margin-top: 10px;
   margin-bottom:25px;
-} 
+  text-decoration: none
+}
+#icons a:hover {
+  text-decoration: none
+}
+
+.jumbotron-fluid {
+  background-color: $pink;
+  color: $orange;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  p {
+    font-size: 1rem;
+    color: $black;
+  }
+  h5 {
+    color: $black;
+    font-weight: bold;
+  }
+}
+
+h2#projects {
+
+  color: $black!important;
+
+}
+
+.btn-outline-primary,
+.btn-outline-primary:focus {
+  color: $orange!important;
+  border-color: $orange;
+  margin-bottom: 5px;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  background: $white!important;
+  border-color: $white;
+  color: $orange;
+}

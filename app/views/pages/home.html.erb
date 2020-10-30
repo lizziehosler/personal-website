@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Personal Website</title>
+    <title>Elizabeth Hosler</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
 
@@ -65,7 +65,6 @@
     </form>
   </div>
 </nav>-->
-
 <main role="main">
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -87,25 +86,42 @@
       </div>
       <div class="col-md-4">
         <h2>Projects</h2>
-        <p>I'm most experienced with Ruby, but have also worked on some frontend Angular projects.</p>
-        <p><a class="btn btn-primary" href="#" role="button">View projects &raquo;</a></p>
+        <p>I have experience working with Ruby, Javascript, HTML, & CSS, as well as the Rails and Angular frameworks.</p>
+                <p><a class="btn btn-primary" href="#projects" role="button">View projects &raquo;</a></p>
       </div>
       <div class="col-md-4" style="font-size: 20px;">
         <h2>Let's Connect</h2>
-        <div class="icons">
-        <i class="fab fa-github fa-2x"></i> 
-        <i class="fab fa-linkedin-in fa-2x"></i>
-        <i class="fas fa-envelope fa-2x"></i>
+        <div id="icons">
+        <a href="https://github.com/lizziehosler"class="fab fa-github fa-2x" target="_blank"></a> 
+        <a href="https://www.linkedin.com/in/elizabeth-hosler/" class="fab fa-linkedin-in fa-2x" target="_blank"></a>
         </div>
         <p>lizzie.hosler@gmail.com<br>573-837-6667</p>
       </div>
     </div>
+    
 
-    <hr>
+
+
+
 
   </div> <!-- /container -->
-
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <a><h2 id="projects">Projects</h1></a>
+    <h5> Car Dealership Inventory App</h5>
+        <p>Independent project utilizing a Rails API and Angular frontend, that simulates a used car dealership inventory with employee login capability.</p>
+        <p><a class="btn btn-outline-primary" href="https://github.com/lizziehosler/rails-car-api" target="_blank" role="button">Car Dealership API&raquo;</a>
+        <a class="btn btn-outline-primary" href="https://github.com/lizziehosler/angular-car-dealership" target="_blank" role="button">Car Dealership Frontend&raquo;</p></a>
+       
+    <h5>Employer Project</h5>
+       
+        <p>I'm currently working with a local employer to implement a Slack-integrated Angular application allowing for submission of anonymous questions that will tie into a region-wide management system for coding bootcamps. </p>
+        <button type="button" class="btn btn-outline-primary">Coming Soon!</button></p>
+  </div>
+</div>
 </main>
+
+
 
 <footer class="container">
   <p>&copy; Elizabeth Hosler <span id="year"><%= Date.today.year %></span></p>
