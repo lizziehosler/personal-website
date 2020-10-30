@@ -82,7 +82,9 @@
       <div class="col-md-4">
         <h2>Resume</h2>
         <p>My professional background is in international exchange, so in addition to French and Spanish, I've recently added some programming languages to my toolbelt.</p>
-        <p><a class="btn btn-primary" href="/docs/Elizabeth_Hosler_resume.pdf" target="_blank" role="button">View resume &raquo;</a></p>
+        <!--<p><a class="btn btn-primary" href="/docs/Elizabeth_Hosler_resume.pdf" target="_blank" role="button">View resume &raquo;</a></p>-->
+        <%= link_to 'Download Resume', {:action => :download}, :class => "btn btn-primary" %>
+
       </div>
       <div class="col-md-4">
         <h2>Projects</h2>
