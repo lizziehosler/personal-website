@@ -8,10 +8,10 @@
 @import "~@fortawesome/fontawesome-free/scss/fontawesome"; 
 
 
-$white: white;
-$black: #323031;
-$pink: #FFD9DA;
-$orange: #E28413;
+$white: #EFF1F3;
+$black: #1F2232;
+$pink: #F3D9DC;
+$orange: #D78521;
 /*$mauve: #B23A48;*/
 
 
@@ -33,7 +33,7 @@ h1.display-3 {
 
 h2 {
   font-weight: 700;
-  color: $orange
+  color: $black
 }
 p {
   font-size: 16px;
@@ -79,7 +79,7 @@ caption {
 }
 
 #icons a { 
-  color: $black;
+  color: $orange;
   align-content: f;
   justify-content: space-between; 
   margin: 0 20px 0 0;
@@ -115,7 +115,7 @@ h2#projects {
 .btn-outline-primary,
 .btn-outline-primary:focus {
   color: $black!important;
-  border-color: $black;
+  border-color: $white;
   background-color: $white;
   margin-bottom: 5px;
 }
