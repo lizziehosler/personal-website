@@ -8,11 +8,11 @@
 @import "~@fortawesome/fontawesome-free/scss/fontawesome"; 
 
 
-$white: #EFF1F3;
-$black: #1F2232;
-$pink: #F3D9DC;
-$orange: #D78521;
-/*$mauve: #B23A48;*/
+$white: #E8E9F3;
+$black: #0D1321;
+$pink: #EDBCB3;
+$grey: #CECECE;
+
 
 
 /*.navbar {
@@ -40,10 +40,10 @@ p {
   color: $black;
 }
 a:visited {
-  color: $orange;
+  color: $pink;
 }
 .jumbotron {
-  background: $orange;
+  background: $black;
   color: $pink;
   text-align: left;
   p {
@@ -54,9 +54,9 @@ a:visited {
 
 .btn-primary,
 .btn-primary:focus {
-  color: $white!important;
+  color: $black!important;
   border-color: $white;
-  background-color: $orange;
+  background-color: $grey;
   margin-bottom: 5px;
 }
 .btn-primary:hover,
@@ -64,7 +64,7 @@ a:visited {
 .btn-primary.active {
   background: $black!important;
   border-color: $white;
-  color: $white
+  color: $white!important;
 }
 
 img,
@@ -79,7 +79,7 @@ caption {
 }
 
 #icons a { 
-  color: $orange;
+  color: $grey;
   align-content: f;
   justify-content: space-between; 
   margin: 0 20px 0 0;
@@ -92,8 +92,7 @@ caption {
 }
 
 .jumbotron-fluid {
-  background-color: $pink;
-  color: $orange;
+  background-color: $grey;
   padding-top: 25px;
   padding-bottom: 20px;
   p {
@@ -122,7 +121,11 @@ h2#projects {
 .btn-outline-primary:hover,
 .btn-outline-primary:active,
 .btn-outline-primary.active {
-  background: $orange!important;
-  border-color: $orange;
-  color: $orange;
+  background: $black!important;
+  border-color: $grey;
+  color: $white!important;
+}
+
+footer {
+  text-align: center;
 }
